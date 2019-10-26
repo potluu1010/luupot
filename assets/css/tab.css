@@ -15,7 +15,7 @@ html
 }
 .tab-wrapper{
     width: 1320px;
-    margin: 0px auto;
+    margin: -25px auto;
     height: 960px;
 }
 .tab-wrapper ul{
