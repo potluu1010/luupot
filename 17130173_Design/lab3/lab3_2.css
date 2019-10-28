@@ -1,0 +1,102 @@
+body{
+    margin-right: 100px;
+    margin-left: 100px;
+
+}
+header {
+    height: 64px;
+    background-color: #662e73;
+    margin-top: 10px;
+
+
+}
+article{
+    height: 650px;
+    background-color: #ffffff;}
+
+#container{
+    width: 100%;
+    height:400px;
+    background-image: url("contemporary-classical-1244.jpg")  ;
+    border: #0e90d2;
+    border: 1px solid;
+}
+footer {
+    height: 100px;
+    background-color:#824be7;
+
+}
+#content1{
+    width: 320px;
+    float: left;
+    height: 250px;
+    margin-left: 18px;
+
+}
+#content2{
+    width: 320px;
+    float: left;
+    height: 250px;
+
+}#content3{
+     width: 320px;
+     float: left;
+     height: 250px;
+
+ }#content4{
+       width: 320px;
+       height: 250px;
+       float: left;
+
+  }
+#menu ul {
+    list-style-type: none;
+    width: 100%;
+    overflow: hidden;
+}
+  #menu li{
+
+      width: 120px;
+      height: 40px;
+      line-height: 40px;
+      margin-top: 10px;
+      margin-left: 0px;
+      float: right;
+
+  }
+  #menu a{
+      text-decoration: none;
+      color: #ffffff;
+      font-size: 18px;
+  }
+  img{
+  }
+.btn {
+    float: left;
+    border: none;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 15px;
+    background-color: #00cc00;
+    padding: 17px 60px;
+    margin: 0 auto;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.20);
+}
+
+.btn span {
+    position: relative;
+    z-index: 1;
+}
+a{
+    text-decoration: none;
+}
+
+
+
