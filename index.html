@@ -4,16 +4,17 @@
   <head>
 
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
     <meta name="description" content="">
     <meta name="author" content="Tooplate">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+    <link rel="shorst icon" type="image/png" href="17130173_Design/lab1/admin.jpg">
+
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <script src="https://code.jquery.com/jquery-3.1.1.min.js" ></script>
-    <title >Blog cá nhân</title>
-
-    <!-- Bootstrap core CSS -->
+    <title >Lưu Văn Pốt</title>
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
 
 
     <!-- Additional CSS Files -->
@@ -22,18 +23,20 @@
     <link rel="stylesheet" href="assets/css/owl.css">
       <link rel="stylesheet" href="assets/css/css.css">
     <link rel="stylesheet" href="assets/css/tab.css">
+<style type="text/css">
+    .run{
+        width:98%;
+        height: 60%;
+        border:1px solid black;
+        padding:50px;
+        overflow:auto;
+    }
+</style>
 
-  <</head>
-    <div class="sequence">
-
-      <div class="seq-preloader">
-        <svg width="39" height="16" viewBox="0 0 39 16" xmlns="http://www.w3.org/2000/svg" class="seq-preload-indicator"><g fill="#F96D38"><path class="seq-preload-circle seq-preload-circle-1" d="M3.999 12.012c2.209 0 3.999-1.791 3.999-3.999s-1.79-3.999-3.999-3.999-3.999 1.791-3.999 3.999 1.79 3.999 3.999 3.999z"/><path class="seq-preload-circle seq-preload-circle-2" d="M15.996 13.468c3.018 0 5.465-2.447 5.465-5.466 0-3.018-2.447-5.465-5.465-5.465-3.019 0-5.466 2.447-5.466 5.465 0 3.019 2.447 5.466 5.466 5.466z"/><path class="seq-preload-circle seq-preload-circle-3" d="M31.322 15.334c4.049 0 7.332-3.282 7.332-7.332 0-4.049-3.282-7.332-7.332-7.332s-7.332 3.283-7.332 7.332c0 4.05 3.283 7.332 7.332 7.332z"/></g></svg>
-      </div>
-
-    </div>
-
+  </head>
+<body>
         <div class="logo">
-          <img src="17130173_Design/lab1/admin.jpg">
+          <img src="admin.jpg" width="100%" >
         </div>
         <nav>
           <p style="color:#ffffff ;font-size: 18px; margin-top: 20px">Lưu Văn Pốt</p>
@@ -41,7 +44,7 @@
           <li><img src="17130173_Design/lab1/globe-6-32.png"> <img src="17130173_Design/lab1/facebook.png" width="32" height="32"> <img src="17130173_Design/lab1/youtube.png"width="32"height="32" ></li>
           <ul>
             <li><a href="#1"><img src="assets/images/home-4-48.png" alt=""> <em>Home</em></a></li>
-            <li><a href="#2"><img src="assets/images/book-stack-48.png"  alt=""> <em>Exercise</em></a></li>
+            <li ><a href="#2"><img src="assets/images/book-stack-48.png"  alt="" > <em>Exercise</em></a></li>
             <li><a href="#3"><img src="assets/images/info-4-48.png" alt=""> <em>About</em></a></li>
           </ul>
         </nav>
@@ -63,183 +66,387 @@
               </div>
         </div>
         <div class="slide" id="2">
-            <div class="content second-content">
-              <div class="tab-wrapper">
-                <ul class="tab">
-                  <li>
-                    <a href="#tab-Lab1">Lab1</a>
-                  </li>
-                  <li>
-                    <a href="#tab-Lab2">Lab2</a>
-                  </li>
-                  <li>
-                    <a href="#tab-Lab3">Lab3</a>
-                  </li>
-                  <li>
-                    <a href="#tab-Lab4">Lab4</a>
-                  </li>
-                  <li>
-                    <a href="#tab-Lab5">Lab5</a>
-                  </li>
-                  <li>
-                    <a href="#tab-Lab6">Lab6</a>
-                  </li>
-
-                  </li>
+            <div class="container mt-3">
+                <ul class="nav nav-tabs" style="margin-left: 42% ;margin-right:27%;margin-bottom: -20px;width: 40%;margin-top:20px">
+                    <li class="nav-item">
+                        <a class="nav-link active" data-toggle="tab" href="#lab1">Lab1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#lab2">Lab2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#lab3">Lab3</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#lab4">Lab4</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#lab5">Lab5</a>
+                    </li>
                 </ul>
-                <div class="tab-content">
-                  <div class="tab-item" id="tab-Lab1">
-                    <section class="tabs">
-                      <input id="tab-1" type="radio" name="radio-set" class="tab-selector-1"  checked ="checked"/>
-                      <label for="tab-1" class="tab-label-1">Requriment</label>
-                      <input id="tab-2" type="radio" name="radio-set" class="tab-selector-2" />
-                      <label for="tab-2" class="tab-label-2">Design</label>
 
-                      <a href="17130173_Design/lab1/lab1.html" target="_blank"><button>Implement</button></a>
+                <!-- Tab panes -->
+                <div class="tab-content" >
+                    <div id="lab1" class="container tab-pane active"><br>
+                        <div class="container mt-3">
+                            <ul class="nav nav-tabs" style="margin-left: 20%">
+                                <li class="nav-item">
+                                    <a class="nav-link active" data-toggle="tab" href="#Requirement1">Requirement</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#Design1">Design</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#Implement1">Implement</a>
+                                </li>
+                            </ul>
 
-                      <div class="clear-shadow"></div>
+                            <!-- Tab panes -->
+                            <div class="tab-content" style="margin-left: 12% ;background-color: #ffffff ;margin-right: 3%">
+                                <div id="Requirement1" class="container tab-pane active show" style="height: 370px;width: 1000px;">
+                                    <br>
+                                    <h5 style="color:#000000">Requriment</h5>
+                                    <p style="
+    margin-right: 22%;
+">1.   <b>Yêu cầu</b>: Chọn 1 đối tượng bất kỳ trong thế giới thực, ví dụ
+                                        như sinh viên, môn học, giảng viên,… để thiết kế trên phần
+                                        mềm một chức năng trên web để thêm, sửa, xóa, tìm kiếm
+                                        cho đối tượng đó.
+                                    </p>
+                                    <p style="margin-right: 51%;"> 2.  Upload tất cả lên Azure / github trong menu Lab1 theo thứ
+                                        tự:</p>
+                                    <p style="margin-right: 34%;">  2.1Tab  <b>Yêu cầu</b>: copy lại nội dung của phần 1 vào đây (trình bày
+                                        cho đẹp)</p>
+                                    <p style="margin-right: 55%;">2.2  Tab <b>Thiết kế</b> : để link tới các file sau đây:</p>
+                                    <p style="margin-right: 59%;">    *  Thiết kế trên giấy (chụp lại ảnh).</p>
+                                    <p style="
+    margin-right: 59%;
+">    *  Thiết kế trên phần mềm thiết kế.</p>
+                                    <p style="
+    margin-right: 40%;
+"> 2.3 Tab <b>Hiện thực</b> : chuyển tất cả thiết kế ở trên ở trên sang html.</p>
 
-                      <div class="content1">
-                        <div class="content-1" id="Requirement">
-                          <h3 style="color: #000000" >Requirement</h3>
-                          <p style="margin-left: 20px;">I.   <b>Yêu cầu</b>: Chọn 1 đối tượng bất kỳ trong thế giới thực, ví dụ
-                            như sinh viên, môn học, giảng viên,… để thiết kế trên phần
-                            mềm một chức năng trên web để thêm, sửa, xóa, tìm kiếm
-                            cho đối tượng đó.
-                          </p>
-                          <p style="margin-left: 20px"> II.  Upload tất cả lên Azure / github trong menu Lab1 theo thứ
-                            tự:</p>
-                          <p style="margin-left:30px">  2.1Tab  <b>Yêu cầu</b>: copy lại nội dung của phần 1 vào đây (trình bày
-                            cho đẹp)</p>
-                          <p style="margin-left: 30px">2.2  Tab <b>Thiết kế</b> : để link tới các file sau đây:</p>
-                          <p style="margin-left: 40px">    *  Thiết kế trên giấy (chụp lại ảnh).</p>
-                          <p style="margin-left: 40px">    *  Thiết kế trên phần mềm thiết kế.</p>
-                          <p style="margin-left: 30px;"> 2.3 Tab <b>Hiện thực</b> : chuyển tất cả thiết kế ở trên ở trên sang html.</p>
-                        </div>
-                        <div class="content-2" id="Design" >
-                          <ul style="margin-left: 0px"><li>        <p>Thiết kế tay</p>
-                            <img src="17130173_Design/lab1/lab1.1.jpg" width="550" height="480" style="float: left">
+                                </div>
+                                <div id="Design1" class="container tab-pane fade"><br>
+                                    <div class="run">
+                                    <h5>Thiết kế bằng tay</h5>
+                                    <img src="17130173_Design/lab1/lab1.1.jpg" width="100%">
+                                        <br>
+                                        <br>
+                                    <h5> Thiết kế bằng figma</h5>
+                                    <img src="17130173_Design/lab1/lab1.jpg" width="100%"  />
+                                        <br>
+                                        <br>
+                                        <a href="#"   ><button type="button" class="btn btn-primary">Download all</button></a>
 
-                            <li>          <p>Thiết kế figma </p>
-                              <img src="17130173_Design/lab1/lab1.jpg" width="550" height="480" style="float: right">
-                            </li>
-                            <a href="https://raw.githubusercontent.com/potluu1010/luupot/master/17130173_Design/lab1/lab_1" target="_blank"><button style="float: left;margin-left: 550px ;height: 35px;color: snow">Download</button></a>
-                          </ul>
+                                    </div>
+                                </div>
+                                <div id="Implement1" class="container tab-pane fade"><br>
+                                    <iframe style="height: 600px;width: 100%;" src="17130173_Design/lab1/lab1.html"></iframe>
 
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                  <div class="tab-item" id="tab-Lab2">
-                    <section class="tabs">
-                      <input id="tab-1" type="radio" name="radio-set" class="tab-selector-1"  value="" checked="" />
-                      <label for="tab-1" class="tab-label-1">Requriment</label>
-
-                      <input id="tab-2" type="radio" name="radio-set" class="tab-selector-2" />
-                      <label for="tab-2" class="tab-label-2">Design</label>
-                        <a href="17130173_Design/lab2/lab2.html" target="_blank"><button>Implement</button></a>
-                      <div class="clear-shadow"></div>
-
-                      <div class="content1">
-                        <div class="content-1">
-                          <h3 style="color:#000000">Requriment</h3>
-                          <p>1. Tạo ra một user scenario.</p>
-                          <p>2. Chọn 1 bước trong user scenario để thiết kế 1 form giao diện
-                          Web trên công cụ thiết kế đã chọn. Sau đó tạo ra file html tương
-                            ứng cho thiết kế này.</p>
-                          <p> * Upload lên Azure / github: trong file html có chèn hình ảnh của
-                            user scenario ở 1 và đường dẫn của file thiết kế ở .</p>
-                        </div>
-                        <div class="content-2">
-                          <ul style="margin-left: 0px">
-                            <li>        <p>User scenario</p>
-                            <img src="17130173_Design/lab2/userFlow.png" width="550" height="480" style="float: left">
-
-                            <li>          <p>Thiết kế figma (tạo form đắng kí )</p>
-                              <img src="17130173_Design/lab2/lab2.jpg" width="550" height="480" style="float: right">
-                            </li>
-                            <a href="https://raw.githubusercontent.com/potluu1010/luupot/master/17130173_Design/lab2/lab_2" target="_blank"><button style="float: left;margin-left: 550px ;height: 35px;color: snow">Download</button></a>
-
-                          </ul>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                  <div class="tab-item" id="tab-Lab3">
-                    <section class="tabs">
-                      <input id="tab-1" type="radio" name="radio-set" class="tab-selector-1"  value="" checked="checked" />
-                      <label for="tab-1" class="tab-label-1">Requriment</label>
-
-                      <input id="tab-2" type="radio" name="radio-set" class="tab-selector-2" />
-                      <label for="tab-2" class="tab-label-2">Design_F</label>
-                      <input id="tab-3" type="radio" name="radio-set" class="tab-selector-3" />
-                      <label for="tab-3" class="tab-label-3">Design_Z</label>
-
-                      <input id="tab-4" type="radio" name="radio-set" class="tab-selector-4" />
-                      <label for="tab-4" class="tab-label-4">Implement</label>
-                      <div class="clear-shadow"></div>
-
-                      <div class="content1">
-                        <div class="content-1">
-                          <h3 style="color: #000000">Requriment</h3>
-                          <p>1. Trong menu <b>Labs</b> tạo menu Lab3 (file lab3.html).Sau đó tạo
-                          2 tab <b>Ex1,Ex2</b>.</p>
-                          <p style="margin-left: 30px"> 1.1 <b>Ex1 </b>:Thiết kế một trang Web đơn giản sử dụng mẫu F-pattern<br>
-                          ==> chuyển sang html(Ex1.html).</p>
-                          <p style="margin-left: 30px"> 1.2 <b>Ex2 </b>:Thiết kế một trang Web đơn giản sử dụng mẫu Z-pattern<br>
-                          ==> chuyển sang html(Ex2.html).</p>
-                          <p>II.Với cả <b>Ex1,Ex2</b> :Tạo 2 tab Design Và Implementation</p>
-                          <p style="margin-left: 30px"> <b>Design </b>:chụp lại hình ảnh để có cái nhìn tổng quan về file thiết kế ,có
-                          nút Download để download file thiết kế nếu muốn.</p>
-                          <p style="margin-left: 30px"><b>Implementation</b>: Nội đung cần hiện thức trên html.</p>
-                          <p>* Upload lên Azure/Github.</p>
-                        </div>
-                        <div class="content-2">
-                          <ul style="margin-left: 0px"><li>        <p>Thiết kế tay</p>
-                            <img src="17130173_Design/lab3/lab3_1.jpg" width="550" height="480" style="float: left">
-                            <li>          <p>Thiết kế figma</p>
-                            <img src="17130173_Design/lab3/lab3-1.JPG" width="550" height="480" style="float: right">
-                          </li>
-                            <a href="https://raw.githubusercontent.com/potluu1010/luupot/master/17130173_Design/lab3F" target="_blank"><button style="float: left;margin-left: 550px ;height: 35px;color: snow">Download</button></a>
-                          </ul>
-
-
-
-                        </div>
-                        <div class="content-3">
-                          <ul style="margin-left: 0px"><li>        <p>Thiết kế tay</p>
-                            <img src="17130173_Design/lab3/lab3_2.jpg" width="500" height="480" style="float: left">
-
-                            <li>          <p>Thiết kế figma</p>
-                              <img src="17130173_Design/lab3-2.PNG" width="500" height="480" style="float: right">
-                          </li>
-                            <a href="#" target="_blank"><button style="float: left;margin-left: 550px ;height: 35px;color: snow">Download</button></a>
-
-                          </ul>
+                                </div>
+                            </div>
                         </div>
 
-                        <div class="content-4">
-                          <a href="17130173_Design/lab3/DemoLab3.html"target="_blank">F-PATTERNT</a>
-                          <br>
-                          <a href="17130173_Design/lab3/lab3_2.html"target="_blank">Z-PATTERNT</a>
+                    </div>
 
+                    <div id="lab2" class="container tab-pane active"><br>
+                        <div class="container mt-3">
+                            <ul class="nav nav-tabs" style="margin-left: 20%">
+                                <li class="nav-item">
+                                    <a class="nav-link active" data-toggle="tab" href="#Requirement2">Requirement</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#Design2">Design</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#Implement2">Implement</a>
+                                </li>
+                            </ul>
+
+                            <!-- Tab panes -->
+                            <div class="tab-content" style="margin-left: 12% ;background-color: #ffffff ;margin-right: 3%">
+                                <div id="Requirement2" class="container tab-pane active show" style="
+    height: 227px;
+    width: 1000px;
+">
+
+                                    <br>
+                                    <h5 style="color:#000000">Requriment</h5>
+                                    <p style="margin-right: 60%;">*Tạo ra một user scenario.</p>
+                                    <p style="
+    margin-left: 8%;
+">*Chọn 1 bước trong user scenario để thiết kế 1 form giao diện
+                                        Web trên công cụ thiết kế đã chọn. Sau đó tạo ra file html tương
+                                        ứng cho thiết kế này.</p>
+                                    <p style="
+    margin-left: 5%;
+"> *Upload lên Azure / github: trong file html có chèn hình ảnh của
+                                        user scenario ở 1 và đường dẫn của file thiết kế ở .</p>
+                                </div>
+                                <div id="Design2" class="container tab-pane fade"><br>
+                                    <div class="run">
+                                        <h5>Thiết kế bằng tay</h5>
+                                        <img src="17130173_Design/lab2/userFlow.png" width="100%" style="border:2px solid red ">
+                                        <br>
+                                        <br>
+                                        <h5> Thiết kế bằng figma(tạo form đắng kí)</h5>
+                                        <img src="17130173_Design/lab2/lab2.jpg" width="100%"   />
+                                        <br>
+                                        <br>
+                                        <a href="#"   ><button type="button" class="btn btn-primary">Download all</button></a>
+
+                                    </div>
+                                </div>
+                                <div id="Implement2" class="container tab-pane fade"><br>
+                                    <iframe src="17130173_Design/lab2/lab2.html" style="width: 100%;height: 600px"></iframe>
+                                </div>
+                            </div>
                         </div>
 
-                      </div>
-                    </section>
-                  </div>
+                    </div>
+                    <div id="lab3" class="container tab-pane active"><br>
+                        <div class="container mt-3">
+                            <ul class="nav nav-tabs" style="margin-left: 20%">
+                                <li class="nav-item">
+                                    <a class="nav-link active" data-toggle="tab" href="#Requirement3">Requirement</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#DesignF">Design-F</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#ImplementF">Implement-F</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#DesignZ">Design-Z</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#ImplementZ">Implement-Z</a>
+                                </li>
+                            </ul>
+
+                            <!-- Tab panes -->
+                            <div class="tab-content" style="margin-left: 12% ;background-color: #ffffff ;margin-right: 3%">
+                                <div id="Requirement3" class="container tab-pane active show" style="
+    width: 1000px;
+    height: 500px;
+">
+                                    <br>
+                                    <h5 style="color:#000000">Requriment</h5>
+                                    <p style="
+    margin-right: 8%;
+"> *Trong menu <b>Labs</b>, tạo 1 menu Lab3 (file lab3.html) sau đó tạo
+                                        2 tab <b>Ex1</b>, <b>Ex2</b>.</p>
+                                    <p style="
+    margin-right: 19%;
+"> *<b>Ex1</b>: Thiết kế một trang Web đơn giản sử dụng mẫu F-pattern</p>
+                                    <p style="
+    margin-right: 32%;
+">==&gt;chuyển sang html (ex1.html)</p>
+                                    <p style="
+    margin-right: 26%;
+"> *<b>Ex2</b>: Thiết kế một trang Web sử dụng mẫu Z-pattern </p>
+                                    <p style="
+    margin-right: 32%;
+">==&gt;chuyển sang html (ex2.html)</p>
+                                    <p style="
+    margin-right: 24%;
+">*Với cả <b>Ex1</b>, <b>Ex2</b>: Tạo 2 tab Design và Implementation:</p>
+                                    <p style="
+    margin-left: 21%;
+">*<b>Design</b>: chụp lại hình ảnh để có cái nhìn tổng quan về file thiết kế, có
+                                        nút Download để download file thiết kế về nếu muốn </p>
+                                    <p style="
+    margin-right: 18%;
+">*<b>Implementation</b>: nội dung phần hiện thực trên html</p>
+                                    <p style="
+    margin-right: 44%;
+"> *Upload lên Azure / Github</p>
+                                </div>
+                                <div id="DesignF" class="container tab-pane fade"><br>
+                                    <div class="run">
+                                  <h5>Thiết kế bằng tay</h5>
+                                        <img src="17130173_Design/lab3/lab3_1.jpg" width="100%" />
+            <h5>Thiết kế bằng figma</h5>
+                                        <img src="17130173_Design/lab3/lab3-1.JPG" width=100%" />
+                                        <a href="#"    ><button type="button" class="btn b tn-primary">Download all</button></a>
+
+
+                                    </div>
+                                </div>
+                                <div id="DesignZ" class="container tab-pane fade"><br>
+                                    <div class="run">
+                                        <h5>Thiết kế bằng tay</h5>
+                                        <img src="17130173_Design/lab3/labt.jpg" width="100%" />
+                                        <h5>Thiết kế bằng figma</h5>
+                                        <img src="17130173_Design/lab3/lab.JPG" width=100%" />
+                                        <a href="#"    ><button type="button" class="btn b tn-primary">Download all</button></a>
+                                    </div>
+                                </div>
+
+                                <div id="ImplementF" class="container tab-pane fade"><br>
+                                        <iframe style="height: 60%;width: 100%;" src="17130173_Design/lab3/lab3.html"></iframe>
+=                                </div>
+                                <div id="ImplementZ" class="container tab-pane fade"><br>
+                                        <iframe src="17130173_Design/lab3/lab3z.html" style="width: 100%;height: 550px"> </iframe>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div id="lab4" class="container tab-pane active"><br>
+                        <div class="container mt-3">
+                            <ul class="nav nav-tabs" style="margin-left: 20%">
+                                <li class="nav-item">
+                                    <a class="nav-link active" data-toggle="tab" href="#Requirement4">Requirement</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#Design4">Design</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#Implement4">Implement</a>
+                                </li>
+                            </ul>
+
+                            <!-- Tab panes -->
+                            <div class="tab-content" style="margin-left: 12% ;background-color: #ffffff ;margin-right: 3%">
+                                <div id="Requirement4" class="container tab-pane active" style="
+    width: 1200px;
+    height: 180px;
+">
+                                    <br>
+                                    <h5>Requirement</h5>
+                                    <p>*Tạo một trang Web có nội dung bất kỳ, sử dụng linh hoạt tất cả
+                                        những phần sau: <b>Input Controls, Navigation, Animations, Default
+                                            Settings, Guided Actions</b></p>
+                                    <p style="
+    margin-right: 84%;
+">*Có biểu mẫu liên hệ</p>
+                                </div>                                <div id="Design4" class="container tab-pane fade"><br>
+                                <div class="run">
+                                    <h5>Thiết kế bằng tay</h5>
+                                    <img src="17130173_Design/lab4/tkt.jpg" width="100%" />
+                                    <h5>Thiết kế bằng figma</h5>
+                                    <img src="17130173_Design/lab4/figma.JPG" width=100%" />
+                                    <a href="#"    ><button type="button" class="btn b tn-primary">Download all</button></a>
+                                </div>
+                                </div>
+                                <div id="Implement4" class="container tab-pane fade"><br>
+                                        <iframe src="17130173_Design/lab4/lab4.html" style="width: 100%;height: 550px"> </iframe>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div id="lab5" class="container tab-pane active"><br>
+                        <div class="container mt-3">
+                            <ul class="nav nav-tabs" style="margin-left: 20%">
+                                <li class="nav-item">
+                                    <a class="nav-link active" data-toggle="tab" href="#Requirement5">Requirement</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#Design5">Design</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#Implement5">Implement</a>
+
+                                </li>
+                            </ul>
+
+                            <!-- Tab panes -->
+                            <div class="tab-content" style="margin-left: 12% ;background-color: #ffffff ;margin-right: 3%">
+                                <div id="Requirement5" class="container tab-pane active" style="
+    width: 1000px;height: 350px;
+">
+                                    <br>
+                                    <h5>Requirement</h5>
+                                    <p><b>Viết tài liệu style guide </b> cho trang Web nhóm và project
+                                        (tạo một menu <b>Style Guide</b> để liệt kê những phần này)</p>
+                                    <p style="
+    margin-right: 49%;
+">*Xác định <b>layout</b> nào đã sử dụng</p>
+                                    <p style="
+    margin-right: 36%;
+">*Xác định các kiểu font chữ (<b>typography</b>) sử dụng</p>
+                                    <p style="
+    margin-right: 46%;
+">*Xây dựng bảng màu (<b>color palette</b>)</p>
+                                    <p style="
+    margin-left: 13%;
+"> <b>*Image</b>: đưa ra kích thước cho các loại hình ảnh trong
+                                        project. Ví dụ: icon sử dụng kích thước bao nhiêu, hình ảnh
+                                        ở banner sử dụng kích thước thế nào.</p>
+                                    <p style="margin-left: 1%"><b>*File và Directory</b>: định nghĩa cấu trúc thư mục của các
+                                        phần trong trang <b>Web nhóm, trong project</b>.</p>
+                                </div>
+                                <div id="Design5" class="container tab-pane fade"><br>
+                                    <h3>Menu 1</h3>
+                                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                </div>
+                                <div id="Implement5" class="container tab-pane fade"><br>
+                                    <div class="run">
+                                        ut aliquip ex ea commodo consequat.</p>
+                                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
                 </div>
-              </div>
+
             </div>
     </div>
     <div class="slide" id="3">
             <div class="content third-content">
                 <div class="container-fluid">
-                  <img src="assets/images/luupot.jpg" alt=""  style="margin-top:-180px">
-              </div>
+                    <div class="card-deck">
+                        <div class="card bg-primary">
+                            <div class="card-body text-center" >
+                                <h4>PiOnt</h4>
+                                <p >Sống trên 1 hành tinh nhỏ bé so với vụ trụ quá lớn so với tôi.
+                                    Hành tinh này luôn chuyển động theo quỹ đạo nhất định.
+                                    Tôi người chạy theo dòng chuyển động tại 1 địa điểm được gọi là phòng trọ nhỏ với 4 bức tường và 1 cửa nhìn vào không gian hảo huyễn
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card bg-warning">
+                            <div class="card-body text-center">
+                                <h4>2 câu hỏi :</h4>
+                                <p><strong>Why:</strong> Tại sao lại học cái gì đó mà bạn thân không hiểu được cái thực sự mình đang hướng đến .cái gì đó mang đến thời gian
+                                <p>Where Am I Now?</p>
+                                <strong>Time</strong>
+                            </div>
+                        </div>
+                        <div class="card bg-success">
+                            <div class="card-body text-center">
+                                <h4>Châm ngôn</h4>
+                                <p> Châm ngôn của 1 cô gái đặc biệt trong lúc đang phía đầu đường hầm 1 ánh sánh nhỏ đã lấp ló đến với:
+"                                Khi bạn muốn bỏ cuộc hãy nghĩ tới lý do tại sao bạn bắt đầu.(Trang Hulipuchi)."
+                                <p>Thank you!</p>
+                                <p>....</p>
+                            </div>
+                        </div>
+                        <div class="card bg-danger">
+                            <div class="card-body text-center">
+                                <h4>Sở thích nhỏ </h4>
+                                <p>Đọc sách</p>
+                                <p>Đi bộ,Thể thao,bóng đá,</p>
+                                <p>Đọc truyện tranh ,xem phim,nấu ăn,nghe nhạc,thích cái mới mẻ </p>
+                                <p> người bí ẩn</p>
+                            </div>
+                        </div>
+                    </div>              </div>
             </div>
         </div>
+        </div>
+</body>
   <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
@@ -251,5 +458,5 @@
           <script src="assets/js/jsbt.js"></script>
 
 
-  </body>
+
 </html>
