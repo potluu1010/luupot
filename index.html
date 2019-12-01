@@ -14,9 +14,6 @@
       <script src="https://code.jquery.com/jquery-3.1.1.min.js" ></script>
     <title >Lưu Văn Pốt</title>
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-
-
     <!-- Additional CSS Files -->
     <link rel="stylesheet" href="assets/css/fontawesome.css">
     <link rel="stylesheet" href="assets/css/tooplate-main.css">
@@ -25,30 +22,75 @@
     <link rel="stylesheet" href="assets/css/tab.css">
 <style type="text/css">
     .run{
-        width:98%;
+        width:100%;
         height: 60%;
         border:1px solid black;
         padding:50px;
         overflow:auto;
+    }
+    input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+    }
+
+    input[type=submit] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        cursor: pointer;
+    }
+
+    input[type=submit]:hover {
+        background-color: #45a049;
+    }
+
+    /* Style the container/contact section */
+
+    /* Create two columns that float next to eachother */
+    .column {
+        float: left;
+        width: 50%;
+        margin-top: 6px;
+        padding: 20px;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+        .column, input[type=submit] {
+            width: 100%;
+            margin-top: 0;
+        }
     }
 </style>
 
   </head>
 <body>
         <div class="logo">
-          <img src="admin.jpg" width="100%" >
+          <img src="admin.jpg" width="100%" height="100%">
         </div>
         <nav>
           <p style="color:#ffffff ;font-size: 18px; margin-top: 20px">Lưu Văn Pốt</p>
           <p style="color:#ffffff ;font-size: 18px;">ID Student:17130173</p>
           <li><img src="17130173_Design/lab1/globe-6-32.png"> <img src="17130173_Design/lab1/facebook.png" width="32" height="32"> <img src="17130173_Design/lab1/youtube.png"width="32"height="32" ></li>
           <ul>
-            <li><a href="#1"><img src="assets/images/home-4-48.png" alt=""> <em>Home</em></a></li>
-            <li ><a href="#2"><img src="assets/images/book-stack-48.png"  alt="" > <em>Exercise</em></a></li>
-            <li><a href="#3"><img src="assets/images/info-4-48.png" alt=""> <em>About</em></a></li>
+            <li><a href="#1"><img src="assets/images/home-24.png" alt=""> <em>Home</em></a></li>
+            <li ><a href="#2"><img src="assets/images/book-stack-64.png" width="24" height="24"  alt="" > <em>Exercise</em></a></li>
+              <li><a href="#3"><img src="assets/images/about-32.png" alt=""> <em>About</em></a></li>
+              <li><a href="#4"><img src="assets/images/business-contact-24.png" width="24" height="24" alt=""> <em>Contact</em></a></li>
           </ul>
         </nav>
-
         <div class="slides">
           <div class="slide" id="1">
             <div id="slider-wrapper">
@@ -102,8 +144,9 @@
                             </ul>
 
                             <!-- Tab panes -->
-                            <div class="tab-content" style="margin-left: 12% ;background-color: #ffffff ;margin-right: 3%">
-                                <div id="Requirement1" class="container tab-pane active show" style="height: 370px;width: 1000px;">
+                            <div class="tab-content" style="margin-left: 10% ;background-color: #ffffff ;margin-right: 0%">
+
+                            <div id="Requirement1" class="container tab-pane active show" style="height: 370px;width: 1000px;">
                                     <br>
                                     <h5 style="color:#000000">Requriment</h5>
                                     <p style="
@@ -149,8 +192,7 @@
                         </div>
 
                     </div>
-
-                    <div id="lab2" class="container tab-pane active"><br>
+                    <div id="lab2" class="container tab-pane "><br>
                         <div class="container mt-3">
                             <ul class="nav nav-tabs" style="margin-left: 20%">
                                 <li class="nav-item">
@@ -163,14 +205,12 @@
                                     <a class="nav-link" data-toggle="tab" href="#Implement2">Implement</a>
                                 </li>
                             </ul>
-
                             <!-- Tab panes -->
-                            <div class="tab-content" style="margin-left: 12% ;background-color: #ffffff ;margin-right: 3%">
+                            <div class="tab-content" style="margin-left: 10% ;background-color: #ffffff ;margin-right: 0%">
                                 <div id="Requirement2" class="container tab-pane active show" style="
     height: 227px;
     width: 1000px;
 ">
-
                                     <br>
                                     <h5 style="color:#000000">Requriment</h5>
                                     <p style="margin-right: 60%;">*Tạo ra một user scenario.</p>
@@ -205,7 +245,7 @@
                         </div>
 
                     </div>
-                    <div id="lab3" class="container tab-pane active"><br>
+                    <div id="lab3" class="container tab-pane "><br>
                         <div class="container mt-3">
                             <ul class="nav nav-tabs" style="margin-left: 20%">
                                 <li class="nav-item">
@@ -227,7 +267,7 @@
                             </ul>
 
                             <!-- Tab panes -->
-                            <div class="tab-content" style="margin-left: 12% ;background-color: #ffffff ;margin-right: 3%">
+                            <div class="tab-content" style="margin-left: 10% ;background-color: #ffffff ;margin-right: 0%">
                                 <div id="Requirement3" class="container tab-pane active show" style="
     width: 1000px;
     height: 500px;
@@ -286,7 +326,7 @@
                                 </div>
 
                                 <div id="ImplementF" class="container tab-pane fade"><br>
-                                        <iframe style="height: 60%;width: 100%;" src="17130173_Design/lab3/lab3.html"></iframe>
+                                        <iframe style="height: 60%;width: 100%;" src="17130173_Design/lab3/lab3%20-%20Copy.html"></iframe>
 =                                </div>
                                 <div id="ImplementZ" class="container tab-pane fade"><br>
                                         <iframe src="17130173_Design/lab3/lab3z.html" style="width: 100%;height: 550px"> </iframe>
@@ -297,7 +337,7 @@
                         </div>
 
                     </div>
-                    <div id="lab4" class="container tab-pane active"><br>
+                    <div id="lab4" class="container tab-pane "><br>
                         <div class="container mt-3">
                             <ul class="nav nav-tabs" style="margin-left: 20%">
                                 <li class="nav-item">
@@ -312,7 +352,7 @@
                             </ul>
 
                             <!-- Tab panes -->
-                            <div class="tab-content" style="margin-left: 12% ;background-color: #ffffff ;margin-right: 3%">
+                            <div class="tab-content" style="margin-left: 10% ;background-color: #ffffff ;margin-right: 0%">
                                 <div id="Requirement4" class="container tab-pane active" style="
     width: 1200px;
     height: 180px;
@@ -330,19 +370,19 @@
                                     <h5>Thiết kế bằng tay</h5>
                                     <img src="17130173_Design/lab4/tkt.jpg" width="100%" />
                                     <h5>Thiết kế bằng figma</h5>
-                                    <img src="17130173_Design/lab4/figma.JPG" width=100%" />
+                                    <img src="17130173_Design/Lab4/la4/img1.JPG" width=100%" />
                                     <a href="#"    ><button type="button" class="btn b tn-primary">Download all</button></a>
                                 </div>
                                 </div>
                                 <div id="Implement4" class="container tab-pane fade"><br>
-                                        <iframe src="17130173_Design/lab4/lab4.html" style="width: 100%;height: 550px"> </iframe>
+                                    <iframe style="height: 60%;width: 100%;" src="17130173_Design/Lab4/lab4.html"></iframe>
 
                                 </div>
                             </div>
                         </div>
 
                     </div>
-                    <div id="lab5" class="container tab-pane active"><br>
+                    <div id="lab5" class="container tab-pane "><br>
                         <div class="container mt-3">
                             <ul class="nav nav-tabs" style="margin-left: 20%">
                                 <li class="nav-item">
@@ -398,7 +438,6 @@
                         </div>
 
                     </div>
-
                 </div>
 
             </div>
@@ -445,12 +484,43 @@
                     </div>              </div>
             </div>
         </div>
+            <div class="slide" id="4">
+    <div class="container-fluid" style="margin-left: 10%;margin-right: 10%">
+        <div style="text-align:center">
+            <h2>Contact Us</h2>
+            <p>Swing by for a cup of coffee, or leave us a message:</p>
         </div>
+        <div class="row">
+            <div class="column">
+                <img src="anh-nonglam_dblv.jpg" style="width:70%">
+            </div>
+            <div class="column">
+                <div class="col-sm-9">
+                <form action="/action_page.php">
+                    <label for="fname" style="float: left">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    <label for="lname" style="float: left">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    <label for="country" style="float: left">Country</label>
+                    <select id="country" name="country">
+                        <option value="australia" style="float: left">Việt nam</option>
+                        <option value="canada" style="float: left">Anh</option>
+                        <option value="usa" style="float: left">Trung quốc</option>
+                    </select>
+                    <label for="subject" style="float: left">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                    <input type="submit" value="Send Message">
+                </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+            </div>
+
 </body>
   <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-
     <!-- Additional Scripts -->
     <script src="assets/js/owl.js"></script>
     <script src="assets/js/accordations.js"></script>
